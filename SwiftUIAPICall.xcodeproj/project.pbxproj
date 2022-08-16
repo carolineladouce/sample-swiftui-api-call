@@ -14,6 +14,7 @@
 		C6124DB228AC337000C13BA7 /* SwiftUIAPICallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DB128AC337000C13BA7 /* SwiftUIAPICallTests.swift */; };
 		C6124DBC28AC337000C13BA7 /* SwiftUIAPICallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DBB28AC337000C13BA7 /* SwiftUIAPICallUITests.swift */; };
 		C6124DBE28AC337000C13BA7 /* SwiftUIAPICallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DBD28AC337000C13BA7 /* SwiftUIAPICallUITestsLaunchTests.swift */; };
+		C6124DCB28AC33DA00C13BA7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DCA28AC33DA00C13BA7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C6124DB728AC337000C13BA7 /* SwiftUIAPICallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAPICallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6124DBB28AC337000C13BA7 /* SwiftUIAPICallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAPICallUITests.swift; sourceTree = "<group>"; };
 		C6124DBD28AC337000C13BA7 /* SwiftUIAPICallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAPICallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6124DCA28AC33DA00C13BA7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C6124DA028AC336E00C13BA7 /* SwiftUIAPICallApp.swift */,
 				C6124DA228AC336E00C13BA7 /* ContentView.swift */,
+				C6124DCA28AC33DA00C13BA7 /* ViewModel.swift */,
 				C6124DA428AC336F00C13BA7 /* Assets.xcassets */,
 				C6124DA628AC336F00C13BA7 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6124DA328AC336E00C13BA7 /* ContentView.swift in Sources */,
+				C6124DCB28AC33DA00C13BA7 /* ViewModel.swift in Sources */,
 				C6124DA128AC336E00C13BA7 /* SwiftUIAPICallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
